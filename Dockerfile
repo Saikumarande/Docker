@@ -5,9 +5,4 @@ WORKDIR /app/work
 LABEL env="demo" coder="ASK"
 COPY /index.html /usr/share/nginx/html/index.html
 RUN echo "the version is ${version}"
-EXPOSE 9090
-
-
-
-
-
+EXPOSE 80
